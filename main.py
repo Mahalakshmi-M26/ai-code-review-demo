@@ -15,3 +15,8 @@ def multiply_numbers(a, b):
 
 multiply_result = multiply_numbers(5, 10)
 print(multiply_result)
+
+def divide_numbers(a, b):
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
