@@ -12,3 +12,6 @@ print(subtract_result)
 
 def multiply_numbers(a, b):
     return a * b
+
+multiply_result = multiply_numbers(5, 10)
+print(multiply_result)
