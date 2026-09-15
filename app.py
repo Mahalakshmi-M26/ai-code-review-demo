@@ -6,4 +6,4 @@ for user in users:
 
 for user in users:
     print("hi")
-    db.get_user(user.id)
+    db.get_user(user.id)    
