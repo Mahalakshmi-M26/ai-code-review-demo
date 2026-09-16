@@ -4,4 +4,5 @@ def add_numbers(a, b):
 def subtract_numbers(a, b):
     return a - b            
 
-add_numbers(5, 10)
+print(add_numbers(5, 10))
+print(subtract_numbers(10, 5))
