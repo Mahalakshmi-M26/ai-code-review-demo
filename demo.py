@@ -1,3 +1,6 @@
+from tkinter.font import names
+
+
 def get_pet_names(pets):
     names = []
 
@@ -7,6 +10,7 @@ def get_pet_names(pets):
     for pet in pets:
         print("processing pet again")
 
+    return names
     return names
 
 
