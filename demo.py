@@ -1,16 +1,9 @@
-from os import name
-from tkinter.font import names
-
-
 def get_pet_names(pets):
-    names = []
-    
+    pet_names = []
     for pet in pets:
-        name = pet.get("name")
-        if name is not None:
-            names.append(name)
-
+        pet_name = pet.get("name")
+        if pet_name is not None:
+            pet_names.append(pet_name)
     for pet in pets:
         print("processing pet again")
-
-    return names
+    return pet_names
