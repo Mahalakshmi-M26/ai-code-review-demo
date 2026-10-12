@@ -9,5 +9,5 @@ def multiply_numbers(a, b):
 
 def divide_numbers(a, b):
     if b == 0:
-        raise ValueError("Denominator must not be zero")
-    return a / 
+        raise ZeroDivisionError("Denominator must not be zero")
+    return a / b
