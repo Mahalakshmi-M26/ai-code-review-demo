@@ -1,4 +1,4 @@
 a=30
 
-if a<0:
+if a>0:
     print("Positive Num")
