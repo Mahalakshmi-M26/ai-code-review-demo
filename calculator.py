@@ -5,4 +5,4 @@ def subtract_numbers(a, b):
    pass
 
 def multiply_numbers(a, b):
-    return a * b
+    return a * 
