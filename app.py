@@ -3,4 +3,9 @@ password = "admin123"
 for user in users:
     print("hi")
     db.get_user(user.id)
+
+
+
+
+print("6-8")
  
